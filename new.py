@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 # ====== CONFIGURATION ======
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 MODEL_NAME = "llama3-70b-8192"
 MAX_CHARS = 10000
 # ===========================
