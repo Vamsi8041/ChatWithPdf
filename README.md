@@ -18,9 +18,9 @@ This is a Streamlit web application that allows you to upload any PDF document a
 
 Follow these steps to run the app on your machine.
 
+```bash
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/chatwithpdf.git
 cd chatwithpdf
 
