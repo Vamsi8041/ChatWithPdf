@@ -28,23 +28,15 @@ cd chatwithpdf
 2. Create a .env File
 This file will securely store your Groq API key.
 
-env
-Copy
-Edit
 GROQ_API_KEY=your-api-key-here
 ⚠️ Never share this file or commit it to GitHub!
 
 3. Install Dependencies
 Make sure you’re using Python 3.8 or higher, then run:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 4. Launch the App
-bash
-Copy
-Edit
+
 streamlit run app.py
 Open the local URL shown in your terminal to access the app in your browser.
 
@@ -60,9 +52,7 @@ Groq API – LLaMA-based large language model interface
 dotenv – For environment variable management
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 chatwithpdf/
 ├── app.py              # Main Streamlit app
 ├── .env                # Environment file with your API key (DO NOT COMMIT)
@@ -82,10 +72,3 @@ You can deploy this project for free using Streamlit Community Cloud.
 Push your project to GitHub (excluding .env)
 
 Go to streamlit.io/cloud and connect your repo
-
-Set your GROQ_API_KEY as a secret in the "Advanced Settings"
-
-📬 Contact
-If you find this project useful or want to contribute, feel free to open an issue or pull request!
-
-Made with ❤️ using Python and Groq.
